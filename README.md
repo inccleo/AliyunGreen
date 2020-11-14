@@ -10,8 +10,35 @@ $ composer require leo/green -vvv
 
 ```
 use Leo\Green\Green;
-$data = new Green('accessKeyId','accessKeySecret');
+$obj = new Green('accessKeyId','accessKeySecret');
 ```
+
+
+## 文本内容检测
+
+```
+$msg = $obj->textScan("妈*");
+```
+
+## 图片同步内容检测
+
+```
+print_r($obj->imageScan($url));
+```
+
+## 视频检测
+
+```
+print_r($obj->VideoScan('视频url'));
+
+```
+
+##  查询视频异测结果
+
+```
+print_r($obj->VideoResults('taskId'));
+```
+
 
 ## Usage
 
