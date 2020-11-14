@@ -3,7 +3,7 @@
 ## Installing
 
 ```shell
-$ composer require leo/green -vvv
+$ composer require inccleo/green -vvv
 ```
 
 ## 引用
