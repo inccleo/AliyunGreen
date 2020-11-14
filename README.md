@@ -1,12 +1,16 @@
-<h1 align="center"> green </h1>
-
-<p align="center"> 阿里云内容安全.</p>
-
+<h1 align="center"> 阿里云内容安全 </h1>
 
 ## Installing
 
 ```shell
 $ composer require leo/green -vvv
+```
+
+## 引用
+
+```
+use Leo\Green\Green;
+$data = new Green('accessKeyId','accessKeySecret');
 ```
 
 ## Usage
