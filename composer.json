@@ -1,0 +1,14 @@
+{
+    "name": "leo/green",
+    "description": "阿里云内容安全",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Leo\\Green\\": "src"
+        }
+    },
+    "require": {
+        "alibabacloud/sdk": "^1.8"
+    }
+}
